@@ -34,28 +34,28 @@ Partial Class Beranda
         Title_Label = New Label()
         Batas_Label = New Label()
         Tanggal_Label1 = New Label()
-        Label1 = New Label()
-        Label2 = New Label()
-        Label3 = New Label()
-        Label4 = New Label()
-        Label5 = New Label()
-        Label6 = New Label()
-        Label7 = New Label()
-        Label8 = New Label()
+        strip_Label = New Label()
+        Babak_Label = New Label()
+        Tanggal_Label2 = New Label()
+        Pengumuman_Label = New Label()
+        Jenis_Label2 = New Label()
+        Jenis_Label = New Label()
+        Tentang_Label = New Label()
+        Desc_Label = New Label()
         Panel2 = New Panel()
         LinkLabel1 = New LinkLabel()
-        Label19 = New Label()
-        Label18 = New Label()
-        Label17 = New Label()
-        Label16 = New Label()
+        List2_Label4 = New Label()
+        List2_Label3 = New Label()
+        List2_Label2 = New Label()
+        List2_Label1 = New Label()
         Panel1 = New Panel()
-        Label15 = New Label()
-        Label14 = New Label()
-        Label13 = New Label()
-        Label12 = New Label()
-        Label11 = New Label()
-        Label10 = New Label()
-        Label9 = New Label()
+        Berikut_Label = New Label()
+        List_Label3 = New Label()
+        List_Label2 = New Label()
+        List_Label1 = New Label()
+        Silahkan_Label = New Label()
+        Tema_Label = New Label()
+        Persyaratan_Label = New Label()
         TableLayoutPanel1 = New TableLayoutPanel()
         PictureBox1 = New PictureBox()
         PictureBox2 = New PictureBox()
@@ -143,119 +143,119 @@ Partial Class Beranda
         Tanggal_Label1.TabIndex = 3
         Tanggal_Label1.Text = "20 Juni 2024"
         ' 
-        ' Label1
+        ' strip_Label
         ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.ForeColor = Color.DimGray
-        Label1.Location = New Point(260, 111)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(15, 19)
-        Label1.TabIndex = 5
-        Label1.Text = "-"
+        strip_Label.AutoSize = True
+        strip_Label.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        strip_Label.ForeColor = Color.DimGray
+        strip_Label.Location = New Point(260, 111)
+        strip_Label.Name = "strip_Label"
+        strip_Label.Size = New Size(15, 19)
+        strip_Label.TabIndex = 5
+        strip_Label.Text = "-"
         ' 
-        ' Label2
+        ' Babak_Label
         ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label2.ForeColor = Color.DimGray
-        Label2.Location = New Point(213, 82)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(149, 19)
-        Label2.TabIndex = 4
-        Label2.Text = "Babak penyisihan :"
+        Babak_Label.AutoSize = True
+        Babak_Label.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Babak_Label.ForeColor = Color.DimGray
+        Babak_Label.Location = New Point(213, 82)
+        Babak_Label.Name = "Babak_Label"
+        Babak_Label.Size = New Size(149, 19)
+        Babak_Label.TabIndex = 4
+        Babak_Label.Text = "Babak penyisihan :"
         ' 
-        ' Label3
+        ' Tanggal_Label2
         ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Arial", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label3.ForeColor = Color.Black
-        Label3.Location = New Point(443, 111)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(106, 19)
-        Label3.TabIndex = 7
-        Label3.Text = "27 Juni 2024"
+        Tanggal_Label2.AutoSize = True
+        Tanggal_Label2.Font = New Font("Arial", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Tanggal_Label2.ForeColor = Color.Black
+        Tanggal_Label2.Location = New Point(443, 111)
+        Tanggal_Label2.Name = "Tanggal_Label2"
+        Tanggal_Label2.Size = New Size(106, 19)
+        Tanggal_Label2.TabIndex = 7
+        Tanggal_Label2.Text = "27 Juni 2024"
         ' 
-        ' Label4
+        ' Pengumuman_Label
         ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label4.ForeColor = Color.DimGray
-        Label4.Location = New Point(396, 82)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(160, 19)
-        Label4.TabIndex = 6
-        Label4.Text = "Pengumuman juara :"
+        Pengumuman_Label.AutoSize = True
+        Pengumuman_Label.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Pengumuman_Label.ForeColor = Color.DimGray
+        Pengumuman_Label.Location = New Point(396, 82)
+        Pengumuman_Label.Name = "Pengumuman_Label"
+        Pengumuman_Label.Size = New Size(160, 19)
+        Pengumuman_Label.TabIndex = 6
+        Pengumuman_Label.Text = "Pengumuman juara :"
         ' 
-        ' Label5
+        ' Jenis_Label2
         ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Arial", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label5.ForeColor = Color.Black
-        Label5.Location = New Point(614, 111)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(103, 19)
-        Label5.TabIndex = 9
-        Label5.Text = "Seni / Bakat"
+        Jenis_Label2.AutoSize = True
+        Jenis_Label2.Font = New Font("Arial", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Jenis_Label2.ForeColor = Color.Black
+        Jenis_Label2.Location = New Point(614, 111)
+        Jenis_Label2.Name = "Jenis_Label2"
+        Jenis_Label2.Size = New Size(103, 19)
+        Jenis_Label2.TabIndex = 9
+        Jenis_Label2.Text = "Seni / Bakat"
         ' 
-        ' Label6
+        ' Jenis_Label
         ' 
-        Label6.AutoSize = True
-        Label6.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label6.ForeColor = Color.DimGray
-        Label6.Location = New Point(567, 82)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(131, 19)
-        Label6.TabIndex = 8
-        Label6.Text = "Jenis kompetisi :"
+        Jenis_Label.AutoSize = True
+        Jenis_Label.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Jenis_Label.ForeColor = Color.DimGray
+        Jenis_Label.Location = New Point(567, 82)
+        Jenis_Label.Name = "Jenis_Label"
+        Jenis_Label.Size = New Size(131, 19)
+        Jenis_Label.TabIndex = 8
+        Jenis_Label.Text = "Jenis kompetisi :"
         ' 
-        ' Label7
+        ' Tentang_Label
         ' 
-        Label7.AutoSize = True
-        Label7.Font = New Font("Arial", 12.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label7.ForeColor = Color.DimGray
-        Label7.Location = New Point(22, 175)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(134, 23)
-        Label7.TabIndex = 10
-        Label7.Text = "Tentang Event"
+        Tentang_Label.AutoSize = True
+        Tentang_Label.Font = New Font("Arial", 12.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Tentang_Label.ForeColor = Color.DimGray
+        Tentang_Label.Location = New Point(22, 175)
+        Tentang_Label.Name = "Tentang_Label"
+        Tentang_Label.Size = New Size(134, 23)
+        Tentang_Label.TabIndex = 10
+        Tentang_Label.Text = "Tentang Event"
         ' 
-        ' Label8
+        ' Desc_Label
         ' 
-        Label8.AutoSize = True
-        Label8.Font = New Font("Arial", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label8.Location = New Point(22, 218)
-        Label8.MaximumSize = New Size(730, 0)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(727, 84)
-        Label8.TabIndex = 11
-        Label8.Text = resources.GetString("Label8.Text")
+        Desc_Label.AutoSize = True
+        Desc_Label.Font = New Font("Arial", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Desc_Label.Location = New Point(22, 218)
+        Desc_Label.MaximumSize = New Size(730, 0)
+        Desc_Label.Name = "Desc_Label"
+        Desc_Label.Size = New Size(727, 84)
+        Desc_Label.TabIndex = 11
+        Desc_Label.Text = resources.GetString("Desc_Label.Text")
         ' 
         ' Panel2
         ' 
         Panel2.AutoScroll = True
         Panel2.Controls.Add(LinkLabel1)
-        Panel2.Controls.Add(Label19)
-        Panel2.Controls.Add(Label18)
-        Panel2.Controls.Add(Label17)
-        Panel2.Controls.Add(Label16)
+        Panel2.Controls.Add(List2_Label4)
+        Panel2.Controls.Add(List2_Label3)
+        Panel2.Controls.Add(List2_Label2)
+        Panel2.Controls.Add(List2_Label1)
         Panel2.Controls.Add(Panel1)
-        Panel2.Controls.Add(Label15)
-        Panel2.Controls.Add(Label14)
-        Panel2.Controls.Add(Label13)
-        Panel2.Controls.Add(Label12)
-        Panel2.Controls.Add(Label11)
-        Panel2.Controls.Add(Label10)
-        Panel2.Controls.Add(Label9)
+        Panel2.Controls.Add(Berikut_Label)
+        Panel2.Controls.Add(List_Label3)
+        Panel2.Controls.Add(List_Label2)
+        Panel2.Controls.Add(List_Label1)
+        Panel2.Controls.Add(Silahkan_Label)
+        Panel2.Controls.Add(Tema_Label)
+        Panel2.Controls.Add(Persyaratan_Label)
         Panel2.Controls.Add(TableLayoutPanel1)
-        Panel2.Controls.Add(Label8)
-        Panel2.Controls.Add(Label7)
-        Panel2.Controls.Add(Label5)
-        Panel2.Controls.Add(Label6)
-        Panel2.Controls.Add(Label3)
-        Panel2.Controls.Add(Label4)
-        Panel2.Controls.Add(Label1)
-        Panel2.Controls.Add(Label2)
+        Panel2.Controls.Add(Desc_Label)
+        Panel2.Controls.Add(Tentang_Label)
+        Panel2.Controls.Add(Jenis_Label2)
+        Panel2.Controls.Add(Jenis_Label)
+        Panel2.Controls.Add(Tanggal_Label2)
+        Panel2.Controls.Add(Pengumuman_Label)
+        Panel2.Controls.Add(strip_Label)
+        Panel2.Controls.Add(Babak_Label)
         Panel2.Controls.Add(Tanggal_Label1)
         Panel2.Controls.Add(Batas_Label)
         Panel2.Controls.Add(Title_Label)
@@ -275,49 +275,49 @@ Partial Class Beranda
         LinkLabel1.TabStop = True
         LinkLabel1.Text = "Peraturan Lomba Poster"
         ' 
-        ' Label19
+        ' List2_Label4
         ' 
-        Label19.AutoSize = True
-        Label19.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label19.Location = New Point(74, 1088)
-        Label19.MaximumSize = New Size(500, 0)
-        Label19.Name = "Label19"
-        Label19.Size = New Size(492, 19)
-        Label19.TabIndex = 26
-        Label19.Text = "4. Peserta membuat poster dengan mengikuti panduan berikut ini :"
+        List2_Label4.AutoSize = True
+        List2_Label4.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        List2_Label4.Location = New Point(74, 1088)
+        List2_Label4.MaximumSize = New Size(500, 0)
+        List2_Label4.Name = "List2_Label4"
+        List2_Label4.Size = New Size(492, 19)
+        List2_Label4.TabIndex = 26
+        List2_Label4.Text = "4. Peserta membuat poster dengan mengikuti panduan berikut ini :"
         ' 
-        ' Label18
+        ' List2_Label3
         ' 
-        Label18.AutoSize = True
-        Label18.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label18.Location = New Point(74, 1055)
-        Label18.MaximumSize = New Size(500, 0)
-        Label18.Name = "Label18"
-        Label18.Size = New Size(212, 19)
-        Label18.TabIndex = 25
-        Label18.Text = "3. Biaya pendaftaran gratis."
+        List2_Label3.AutoSize = True
+        List2_Label3.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        List2_Label3.Location = New Point(74, 1055)
+        List2_Label3.MaximumSize = New Size(500, 0)
+        List2_Label3.Name = "List2_Label3"
+        List2_Label3.Size = New Size(212, 19)
+        List2_Label3.TabIndex = 25
+        List2_Label3.Text = "3. Biaya pendaftaran gratis."
         ' 
-        ' Label17
+        ' List2_Label2
         ' 
-        Label17.AutoSize = True
-        Label17.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label17.Location = New Point(74, 1024)
-        Label17.MaximumSize = New Size(500, 0)
-        Label17.Name = "Label17"
-        Label17.Size = New Size(201, 19)
-        Label17.TabIndex = 24
-        Label17.Text = "2. Lomba bersifat individu."
+        List2_Label2.AutoSize = True
+        List2_Label2.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        List2_Label2.Location = New Point(74, 1024)
+        List2_Label2.MaximumSize = New Size(500, 0)
+        List2_Label2.Name = "List2_Label2"
+        List2_Label2.Size = New Size(201, 19)
+        List2_Label2.TabIndex = 24
+        List2_Label2.Text = "2. Lomba bersifat individu."
         ' 
-        ' Label16
+        ' List2_Label1
         ' 
-        Label16.AutoSize = True
-        Label16.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label16.Location = New Point(74, 996)
-        Label16.MaximumSize = New Size(500, 0)
-        Label16.Name = "Label16"
-        Label16.Size = New Size(292, 19)
-        Label16.TabIndex = 23
-        Label16.Text = "1. Lomba poster dibuka bagi siapapun."
+        List2_Label1.AutoSize = True
+        List2_Label1.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        List2_Label1.Location = New Point(74, 996)
+        List2_Label1.MaximumSize = New Size(500, 0)
+        List2_Label1.Name = "List2_Label1"
+        List2_Label1.Size = New Size(292, 19)
+        List2_Label1.TabIndex = 23
+        List2_Label1.Text = "1. Lomba poster dibuka bagi siapapun."
         ' 
         ' Panel1
         ' 
@@ -326,76 +326,76 @@ Partial Class Beranda
         Panel1.Size = New Size(250, 329)
         Panel1.TabIndex = 22
         ' 
-        ' Label15
+        ' Berikut_Label
         ' 
-        Label15.AutoSize = True
-        Label15.Font = New Font("Arial", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label15.Location = New Point(51, 962)
-        Label15.Name = "Label15"
-        Label15.Size = New Size(475, 24)
-        Label15.TabIndex = 21
-        Label15.Text = "Berikut ini persyaratan pendaftaran lomba poster"
+        Berikut_Label.AutoSize = True
+        Berikut_Label.Font = New Font("Arial", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Berikut_Label.Location = New Point(51, 962)
+        Berikut_Label.Name = "Berikut_Label"
+        Berikut_Label.Size = New Size(475, 24)
+        Berikut_Label.TabIndex = 21
+        Berikut_Label.Text = "Berikut ini persyaratan pendaftaran lomba poster"
         ' 
-        ' Label14
+        ' List_Label3
         ' 
-        Label14.AutoSize = True
-        Label14.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label14.Location = New Point(74, 893)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(253, 19)
-        Label14.TabIndex = 20
-        Label14.Text = "• Masyarakat Sehat, Negara Maju"
+        List_Label3.AutoSize = True
+        List_Label3.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        List_Label3.Location = New Point(74, 893)
+        List_Label3.Name = "List_Label3"
+        List_Label3.Size = New Size(253, 19)
+        List_Label3.TabIndex = 20
+        List_Label3.Text = "• Masyarakat Sehat, Negara Maju"
         ' 
-        ' Label13
+        ' List_Label2
         ' 
-        Label13.AutoSize = True
-        Label13.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label13.Location = New Point(74, 864)
-        Label13.Name = "Label13"
-        Label13.Size = New Size(246, 19)
-        Label13.TabIndex = 19
-        Label13.Text = "• Akses Kesehatan untuk Semua"
+        List_Label2.AutoSize = True
+        List_Label2.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        List_Label2.Location = New Point(74, 864)
+        List_Label2.Name = "List_Label2"
+        List_Label2.Size = New Size(246, 19)
+        List_Label2.TabIndex = 19
+        List_Label2.Text = "• Akses Kesehatan untuk Semua"
         ' 
-        ' Label12
+        ' List_Label1
         ' 
-        Label12.AutoSize = True
-        Label12.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label12.Location = New Point(74, 834)
-        Label12.Name = "Label12"
-        Label12.Size = New Size(201, 19)
-        Label12.TabIndex = 18
-        Label12.Text = "• Inovasi dalam Kesehatan"
+        List_Label1.AutoSize = True
+        List_Label1.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        List_Label1.Location = New Point(74, 834)
+        List_Label1.Name = "List_Label1"
+        List_Label1.Size = New Size(201, 19)
+        List_Label1.TabIndex = 18
+        List_Label1.Text = "• Inovasi dalam Kesehatan"
         ' 
-        ' Label11
+        ' Silahkan_Label
         ' 
-        Label11.AutoSize = True
-        Label11.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label11.Location = New Point(51, 804)
-        Label11.Name = "Label11"
-        Label11.Size = New Size(350, 19)
-        Label11.TabIndex = 16
-        Label11.Text = "Silakan pilih salah satu tema poster berikut ini :"
+        Silahkan_Label.AutoSize = True
+        Silahkan_Label.Font = New Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Silahkan_Label.Location = New Point(51, 804)
+        Silahkan_Label.Name = "Silahkan_Label"
+        Silahkan_Label.Size = New Size(350, 19)
+        Silahkan_Label.TabIndex = 16
+        Silahkan_Label.Text = "Silakan pilih salah satu tema poster berikut ini :"
         ' 
-        ' Label10
+        ' Tema_Label
         ' 
-        Label10.AutoSize = True
-        Label10.Font = New Font("Arial", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label10.Location = New Point(51, 770)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(129, 24)
-        Label10.TabIndex = 15
-        Label10.Text = "Tema Poster"
+        Tema_Label.AutoSize = True
+        Tema_Label.Font = New Font("Arial", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Tema_Label.Location = New Point(51, 770)
+        Tema_Label.Name = "Tema_Label"
+        Tema_Label.Size = New Size(129, 24)
+        Tema_Label.TabIndex = 15
+        Tema_Label.Text = "Tema Poster"
         ' 
-        ' Label9
+        ' Persyaratan_Label
         ' 
-        Label9.AutoSize = True
-        Label9.Font = New Font("Arial", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label9.ForeColor = Color.DimGray
-        Label9.Location = New Point(22, 705)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(241, 32)
-        Label9.TabIndex = 14
-        Label9.Text = "Persyaratan Event"
+        Persyaratan_Label.AutoSize = True
+        Persyaratan_Label.Font = New Font("Arial", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Persyaratan_Label.ForeColor = Color.DimGray
+        Persyaratan_Label.Location = New Point(22, 705)
+        Persyaratan_Label.Name = "Persyaratan_Label"
+        Persyaratan_Label.Size = New Size(241, 32)
+        Persyaratan_Label.TabIndex = 14
+        Persyaratan_Label.Text = "Persyaratan Event"
         ' 
         ' TableLayoutPanel1
         ' 
@@ -478,31 +478,31 @@ Partial Class Beranda
     Friend WithEvents Title_Label As Label
     Friend WithEvents Batas_Label As Label
     Friend WithEvents Tanggal_Label1 As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
+    Friend WithEvents strip_Label As Label
+    Friend WithEvents Babak_Label As Label
+    Friend WithEvents Tanggal_Label2 As Label
+    Friend WithEvents Pengumuman_Label As Label
+    Friend WithEvents Jenis_Label2 As Label
+    Friend WithEvents Jenis_Label As Label
+    Friend WithEvents Tentang_Label As Label
+    Friend WithEvents Desc_Label As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel2 As Panel
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Label16 As Label
+    Friend WithEvents Tema_Label As Label
+    Friend WithEvents Persyaratan_Label As Label
+    Friend WithEvents Silahkan_Label As Label
+    Friend WithEvents List_Label3 As Label
+    Friend WithEvents List_Label2 As Label
+    Friend WithEvents List_Label1 As Label
+    Friend WithEvents Berikut_Label As Label
+    Friend WithEvents List2_Label1 As Label
     Friend WithEvents LinkLabel1 As LinkLabel
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Label18 As Label
-    Friend WithEvents Label17 As Label
+    Friend WithEvents List2_Label4 As Label
+    Friend WithEvents List2_Label3 As Label
+    Friend WithEvents List2_Label2 As Label
 
 End Class
